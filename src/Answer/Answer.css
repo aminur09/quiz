@@ -1,0 +1,40 @@
+.answer
+{
+   width: 30%;
+   min-height: 40px;
+   color: #fff;
+   background-color: lightseagreen;
+   box-shadow: 2px 2px 2px 2px #888888;
+   border-radius: 5px;
+   margin: 10px;
+   text-align: center;
+   line-height: 40px;
+   padding: 100px;
+   padding-left: 3%;
+   display: inline-block;
+   font-size: 22px;
+   cursor: pointer;
+}
+.answer-selected
+{
+   width: 40%;
+   min-height: 40px;
+   color: #fff;
+   background-color: lightskyblue;
+   box-shadow: 2px 2px 2px 2px #888888;
+   border-radius: 5px;
+   margin: 10px;
+   line-height: 40px;
+   padding: 100px;
+   padding-left: 3%;
+   display: inline-block;
+   font-size: 22px;
+   cursor: pointer;
+   transition: ease-in-out 0.5s;
+}
+
+.answer:hover{
+  background-color: lightblue;
+  width: 40%;
+  transition: linear 0.5s;
+}
